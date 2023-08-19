@@ -64,12 +64,12 @@ st_lottie(
     quality="low",height=220
 )
 selected_movie = st.selectbox(
-    "Type or select a movie from the dropdown",
+    "Type or select a movie/show from the dropdown",
     movie_list
 )
 
 if st.button('Show Recommendation'):
     recommended_movie_names = recommend(selected_movie)
     # display table
-    st.subheader("Top 10 Recommended Movies")
+    st.subheader("Top 10 Recommendations")
     st.dataframe(data=recommended_movie_names[['title', 'country', 'genres', 'description', 'release_year', 'cast']])
