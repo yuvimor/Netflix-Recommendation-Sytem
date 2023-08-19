@@ -7,7 +7,7 @@
 
 
 > Deployment Site @ https://yuvi-netflix-recommendation.streamlit.app/
-> View Notebook @ 
+> View Notebook @ https://github.com/yuvimor/netflix-rec/blob/cbafae4f2a0ea209b243265b6dd4f8f1d90c319b/Notebook/Netflix_Recommendation_Engine.ipynb
 
 ### INTRODUCTION
 The content-based recommender system is highly based on the similarity calculation among items. The similarity or closeness of items is measured based on the similarity in the content or features of those items. The important features used in this project are:
