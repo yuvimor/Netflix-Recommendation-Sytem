@@ -30,7 +30,7 @@ Data Source: https://www.kaggle.com/datasets/shivamb/netflix-shows
 
 ### Steps taken to build the recommender systems
 - Data Collection 
-- Data Wrangling.
+- Data Processing
 - Data Cleaning
 - Build the Recommender System
 - Build the app using Streamlit
