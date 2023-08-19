@@ -54,7 +54,7 @@ movie_list = sorted(movies_df['title'].tolist() + tv_show['title'].tolist())
 #streamlit
 ##################################################################
 
-st.header('Netflix Movie Recommendation System ')
+st.header('Netflix Recommendation System ')
 lottie_coding = load_lottiefile("netflix-logo.json")
 st_lottie(
     lottie_coding,
